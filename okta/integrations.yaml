@@ -2,7 +2,7 @@ name: okta
 unique_key: okta_oauth2
 
 description: Okta provides cloud software that helps companies manage and secure user authentication into applications.
-logo: https://example.com/okta-logo.png
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/c6adf6151de453cd9f21080126595695a9297d0e/okta.svg
 categories: [Security, Identity Management]
 
 auth_schemes:
