@@ -2,7 +2,7 @@ name: epic-games
 unique_key: epic-games
 
 description: Epic Games integration for OAuth2 authentication.
-logo: https://upload.wikimedia.org/wikipedia/commons/3/31/Epic_Games_logo.svg
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/485e622115f1984b6b03041df0009b5767ed4737/epic-games.svg
 categories: [gaming]
 
 auth_schemes:
