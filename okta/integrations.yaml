@@ -1,0 +1,26 @@
+name: okta
+unique_key: okta_oauth2
+
+description: Okta provides cloud software that helps companies manage and secure user authentication into applications.
+logo: https://example.com/okta-logo.png
+categories: [Security, Identity Management]
+
+auth_schemes:
+  - scheme_name: OAuth2
+    auth_mode: OAUTH2
+    authorization_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/authorize"
+    token_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/token"
+
+    token_params:
+      grant_type: authorization_code
+    authorization_params:
+      response_type: code
+    proxy:
+      base_url: "{{base_url}}"
+      state: "state_value"
+    fields:
+      - name: base_url
+        displayName: Base URL
+        description: "https://trial-6485370-admin.okta.com/"
+        type: string
+        default: "https://${connectionConfig.subdomain}.okta.com"
