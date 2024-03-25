@@ -1,0 +1,26 @@
+name: epic-games
+unique_key: epic-games
+
+description: Epic Games integration for OAuth2 authentication.
+logo: https://upload.wikimedia.org/wikipedia/commons/3/31/Epic_Games_logo.svg
+categories: [gaming]
+
+auth_schemes:
+  - scheme_name: OAUTH2
+    auth_mode: OAUTH2
+    authorization_url: "https://www.epicgames.com/id/authorize"
+    token_url: "https://api.epicgames.dev/epic/oauth/v1/token"
+
+    token_params:
+      grant_type: authorization_code
+    authorization_params:
+      response_type: code
+    proxy:
+      base_url: "{{base_url}}"
+      state: ""
+    fields:
+      - name: base_url
+        displayName: Base URL
+        description: "Base URL for Epic Games API."
+        type: string
+        default: "https://api.epicgames.dev"
