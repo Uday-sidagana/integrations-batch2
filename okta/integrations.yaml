@@ -1,12 +1,12 @@
 name: okta
-unique_key: okta_oauth2
+unique_key: okta
 
 description: Okta provides cloud software that helps companies manage and secure user authentication into applications.
 logo: https://raw.githubusercontent.com/SamparkAI/open-logos/c6adf6151de453cd9f21080126595695a9297d0e/okta.svg
 categories: [Security, Identity Management]
 
 auth_schemes:
-  - scheme_name: OAuth2
+  - scheme_name: Okta_OAuth2
     auth_mode: OAUTH2
     authorization_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/authorize"
     token_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/token"
