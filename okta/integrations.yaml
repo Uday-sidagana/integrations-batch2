@@ -10,7 +10,7 @@ auth_schemes:
     auth_mode: OAUTH2
     authorization_url: "https://{{subdomain}}.okta.com/oauth2/v1/authorize"
     token_url: "https://{{subdomain}}.okta.com/oauth2/v1/token"
-
+    default_scopes: ["okta.agentPools.read okta.agentPools.manage"]
     token_params:
       grant_type: authorization_code
     authorization_params:
