@@ -6,7 +6,7 @@ logo: https://raw.githubusercontent.com/SamparkAI/open-logos/c6adf6151de453cd9f2
 categories: [Security, Identity Management]
 
 auth_schemes:
-  - scheme_name: Okta_OAuth2
+  - scheme_name: okta_OAuth2
     auth_mode: OAUTH2
     authorization_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/authorize"
     token_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/token"
@@ -17,7 +17,7 @@ auth_schemes:
       response_type: code
     proxy:
       base_url: "{{base_url}}"
-      state: "state_value"
+
     fields:
       - name: base_url
         displayName: Base URL
