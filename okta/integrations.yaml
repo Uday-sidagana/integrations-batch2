@@ -8,8 +8,8 @@ categories: [Security, Identity Management]
 auth_schemes:
   - scheme_name: okta_OAuth2
     auth_mode: OAUTH2
-    authorization_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/authorize"
-    token_url: "https://${connectionConfig.subdomain}.okta.com/oauth2/v1/token"
+    authorization_url: "https://{{subdomain}}.okta.com/oauth2/v1/authorize"
+    token_url: "https://{{subdomain}}.okta.com/oauth2/v1/token"
 
     token_params:
       grant_type: authorization_code
@@ -23,4 +23,10 @@ auth_schemes:
         displayName: Base URL
         description: "https://trial-6485370-admin.okta.com/"
         type: string
-        default: "https://${connectionConfig.subdomain}.okta.com"
+        default: "https://{{subdomain}}.okta.com"
+      - name: subdomain
+        expected_from_customer: true
+        displayName: Okta Subdomain
+        description: "Your Okta subdomain (e.g., your-company-name in your-company-name.okta.com)"
+        type: string
+        required: true
