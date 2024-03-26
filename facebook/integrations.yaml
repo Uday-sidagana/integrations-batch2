@@ -2,7 +2,7 @@ name: facebook
 unique_key: facebook
 
 description: Facebook is a social media and social networking service.
-logo: <link_to_app_logo>
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/58934668a29db74d7c6f1e692a33551b78c7756e/facebook.svg
 categories: [marketing, social]
 
 auth_schemes:
