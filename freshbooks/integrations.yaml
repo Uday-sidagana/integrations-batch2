@@ -1,0 +1,26 @@
+name: freshbooks
+unique_key: freshbooks
+docs: https://www.freshbooks.com/api/start
+description: Accounting software that makes running your small business easy, fast and secure.
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/f6f17db013f8e988fe88711a3316c30ed0493c55/freshbooks.svg
+categories: [accounting]
+
+auth_schemes:
+  - scheme_name: OAUTH2
+    auth_mode: OAUTH2
+    authorization_url: "https://auth.freshbooks.com/oauth/authorize"
+    token_url: "https://api.freshbooks.com/auth/oauth/token"
+
+    token_params:
+      grant_type: authorization_code
+    authorization_params:
+      response_type: code
+    proxy:
+      base_url: "{{base_url}}"
+      state: "freshbooks"
+    fields:
+      - name: base_url
+        displayName: Base URL
+        description: "Base URL for API requests."
+        type: string
+        default: "https://api.freshbooks.com"
