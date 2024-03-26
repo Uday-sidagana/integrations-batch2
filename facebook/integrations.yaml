@@ -1,0 +1,26 @@
+name: facebook
+unique_key: facebook
+
+description: Facebook is a social media and social networking service.
+logo: <link_to_app_logo>
+categories: [marketing, social]
+
+auth_schemes:
+  - scheme_name: OAUTH2
+    auth_mode: OAUTH2
+    authorization_url: "https://www.facebook.com/v15.0/dialog/oauth"
+    token_url: "https://graph.facebook.com/v15.0/oauth/access_token"
+
+    token_params:
+      grant_type: authorization_code
+    authorization_params:
+      response_type: code
+    proxy:
+      base_url: "{{base_url}}"
+      state: "state"
+    fields:
+      - name: base_url
+        displayName: Base URL
+        description: "The base URL for API requests."
+        type: string
+        default: https://graph.facebook.com
