@@ -1,6 +1,6 @@
 name: gitlab
 unique_key: gitlab
-
+docs: https://docs.gitlab.com/ee/api/oauth2.html
 description: A web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.
 logo: https://raw.githubusercontent.com/SamparkAI/open-logos/5edad45220d82fa0f741508e7aacac51388c4912/gitlab.svg
 categories: [dev-tools, ticketing]
@@ -11,6 +11,11 @@ auth_schemes:
     authorization_url: "https://gitlab.com/oauth/authorize"
     token_url: "https://gitlab.com/oauth/token"
 
+    token_response_metadata:
+      - name: expires_in
+        description: "The duration in seconds after which the access token expires. Generally set to 7200 seconds (2 hours)."
+      - name: refresh_token
+        description: "Token used to obtain a new access token after the current one expires."
     token_params:
       grant_type: authorization_code
     authorization_params:
