@@ -2,7 +2,7 @@ name: front
 unique_key: front
 
 description: A customer communication hub that brings emails and messages into a single platform for better team collaboration and customer service.
-logo: https://logo.clearbit.com/front.com
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/05ce9f16f72a19fef5f00ba34f629ec3f697b1b7/front.svg
 categories: [support, ticketing]
 
 auth_schemes:
