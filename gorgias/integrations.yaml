@@ -23,4 +23,4 @@ auth_schemes:
         displayName: Base URL
         description: "The base URL for Gorgias API access, including the subdomain specific to your Gorgias account."
         type: string
-        default: "https://partners.gorgias.com"
+        default: "https://composio.gorgias.com"
