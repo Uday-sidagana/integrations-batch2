@@ -1,0 +1,26 @@
+name: front
+unique_key: front
+
+description: A customer communication hub that brings emails and messages into a single platform for better team collaboration and customer service.
+logo: https://logo.clearbit.com/front.com
+categories: [support, ticketing]
+
+auth_schemes:
+  - scheme_name: oauth2
+    auth_mode: OAUTH2
+    authorization_url: "https://app.frontapp.com/oauth/authorize"
+    token_url: "https://app.frontapp.com/oauth/token"
+
+    token_params:
+      grant_type: authorization_code
+    authorization_params:
+      response_type: code
+    proxy:
+      base_url: "{{base_url}}"
+      state: "state_value"
+    fields:
+      - name: base_url
+        displayName: Base URL
+        description: "The API base URL for Front."
+        type: string
+        default: "https://api2.frontapp.com"
