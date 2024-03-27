@@ -2,7 +2,7 @@ name: Gorgias
 unique_key: gorgias
 
 description: Integration for Gorgias, focusing on e-commerce enhancements.
-logo: N/A
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/c53a17aecaf520e8dca64d5761329c43343f288c/gorgias.svg
 categories: [e-commerce]
 
 auth_schemes:
