@@ -2,7 +2,7 @@ name: gitlab
 unique_key: gitlab
 
 description: A web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.
-logo: https://logo.clearbit.com/gitlab.com
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/5edad45220d82fa0f741508e7aacac51388c4912/gitlab.svg
 categories: [dev-tools, ticketing]
 
 auth_schemes:
