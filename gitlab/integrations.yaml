@@ -1,0 +1,26 @@
+name: gitlab
+unique_key: gitlab
+
+description: A web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.
+logo: https://logo.clearbit.com/gitlab.com
+categories: [dev-tools, ticketing]
+
+auth_schemes:
+  - scheme_name: oauth2
+    auth_mode: OAUTH2
+    authorization_url: "https://gitlab.com/oauth/authorize"
+    token_url: "https://gitlab.com/oauth/token"
+
+    token_params:
+      grant_type: authorization_code
+    authorization_params:
+      response_type: code
+    proxy:
+      base_url: "{{base_url}}"
+      state: "state_value"
+    fields:
+      - name: base_url
+        displayName: Base URL
+        description: "The API base URL for GitLab."
+        type: string
+        default: "https://gitlab.com/api/v4"
