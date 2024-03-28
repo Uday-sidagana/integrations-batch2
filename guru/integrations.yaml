@@ -1,0 +1,17 @@
+name: Guru
+unique_key: guru
+
+description: Guru brings your team's knowledge, docs, and projects together in one place.
+logo: <link_to_app_logo>
+categories: [knowledge-base]
+
+auth_schemes:
+  - scheme_name: BASIC
+    auth_mode: BASIC
+    proxy:
+      base_url: "https://api.getguru.com/api/v1"
+    fields:
+      - name: api_token
+        displayName: API Token
+        description: "Your Guru API token used for authentication."
+        type: string
