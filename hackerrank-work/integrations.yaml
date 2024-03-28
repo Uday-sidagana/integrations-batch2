@@ -1,0 +1,12 @@
+name: hackerrank-work
+unique_key: hackerrank-work
+
+description: Integration with HackerRank Work for authentication.
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/90b8156b1ea0e05f14976403ab728f410211a0e6/hackerrank.svg
+categories: [Development, Authentication]
+
+auth_schemes:
+  - scheme_name: BASIC
+    auth_mode: BASIC
+    proxy:
+      base_url: "https://www.hackerrank.com"
