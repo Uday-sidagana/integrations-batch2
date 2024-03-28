@@ -1,7 +1,7 @@
 name: Guru
 unique_key: guru
 
-description: Guru brings your team's knowledge, docs, and projects together in one place.
+description: Knowledge base platform that offers companies the ability to capture, organize, and access critical knowledge from their teams.
 logo: https://raw.githubusercontent.com/SamparkAI/open-logos/48f2cddac6a41e29be3a4c21f36d41995a24486b/guru.svg
 categories: [knowledge-base]
 
@@ -9,9 +9,4 @@ auth_schemes:
   - scheme_name: BASIC
     auth_mode: BASIC
     proxy:
-      base_url: "https://api.getguru.com/api/v1"
-    fields:
-      - name: api_token
-        displayName: API Token
-        description: "Your Guru API token used for authentication."
-        type: string
+      base_url: https://api.getguru.com/api/v1
