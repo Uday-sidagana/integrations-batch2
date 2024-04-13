@@ -2,7 +2,7 @@ name: DigiCert
 unique_key: digicert
 
 description: DigiCert provides SSL, IoT and other PKI solutions for securing web applications, data and connections.
-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DigiCert_logo.svg/1200px-DigiCert_logo.svg.png
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/6b944b75ec7455c4a5d0c31524995ac19995ecf7/digicert.svg
 categories: [security, ssl-certificate, pki]
 
 auth_schemes:
