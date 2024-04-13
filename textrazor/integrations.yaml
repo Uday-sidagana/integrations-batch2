@@ -1,0 +1,17 @@
+name: TextRazor
+unique_key: textrazor
+
+description: TextRazor offers state-of-the-art natural language processing tools, enabling advanced text analysis and understanding through their API.
+logo: https://www.textrazor.com/logo.png
+categories: [nlp, text-analysis, ai]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: API_KEY
+    proxy:
+      base_url: "https://api.textrazor.com"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "Your TextRazor API Key used for authenticating requests to the TextRazor API."
+        type: string
