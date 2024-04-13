@@ -2,7 +2,7 @@ name: TextRazor
 unique_key: textrazor
 
 description: TextRazor offers state-of-the-art natural language processing tools, enabling advanced text analysis and understanding through their API.
-logo: https://www.textrazor.com/logo.png
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/48bd5ba42558e8702f6c81f0bc7348c7210204fc/textrazor.svg
 categories: [nlp, text-analysis, ai]
 
 auth_schemes:
