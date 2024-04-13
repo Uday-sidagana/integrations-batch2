@@ -1,0 +1,17 @@
+name: DigiCert
+unique_key: digicert
+
+description: DigiCert provides SSL, IoT and other PKI solutions for securing web applications, data and connections.
+logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/DigiCert_logo.svg/1200px-DigiCert_logo.svg.png
+categories: [security, ssl-certificate, pki]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: API_KEY
+    proxy:
+      base_url: "https://www.digicert.com/services/v2"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "Your DigiCert API Key used for authentication to manage certificates."
+        type: string
