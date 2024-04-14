@@ -2,7 +2,7 @@ name: EchtPost
 unique_key: echtpost
 
 description: EchtPost offers secure and encrypted digital communication solutions, ensuring privacy and safety for personal and business correspondence.
-logo: https://raw.githubusercontent.com/SamparkAI/open-logos/f78288d8f15792c86c5874b36ed06cdbfdeb53f9/echtpost.svg
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/2816146dc29c16102b1d62ec79c0ac1fd618bfb7/echtpost.svg
 categories: [digital-communication, encryption, privacy]
 
 auth_schemes:
