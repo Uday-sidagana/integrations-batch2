@@ -1,0 +1,19 @@
+name: MaintainX
+unique_key: maintainx
+
+description: MaintainX provides a comprehensive suite of tools for maintenance and operations management, enabling businesses to streamline workflows, enhance communication, and improve operational efficiency.
+logo: https://example.com/path/to/maintainx/logo.png # Replace with actual logo URL
+categories:
+  [maintenance-management, workflow-automation, operational-efficiency]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.maintainx.com/v1"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "API key used for authenticating requests to the MaintainX API."
+        type: string
+        required: true
