@@ -1,0 +1,18 @@
+name: CHMeetings
+unique_key: chmeetings
+
+description: CHMeetings is a comprehensive church management platform offering solutions for event planning, member engagement, and administrative efficiency.
+logo: https://example.com/path/to/chmeetings/logo.png # Replace with actual logo URL
+categories: [church-management, event-planning, member-engagement]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.chmeetings.com/v1"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "API key used for authenticating requests to the CHMeetings API."
+        type: string
+        required: true
