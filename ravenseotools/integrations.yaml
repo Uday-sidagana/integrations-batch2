@@ -1,0 +1,18 @@
+name: Raven SEO Tools
+unique_key: ravenseotools
+
+description: Raven SEO Tools offers advanced SEO analysis, reporting, and data tracking services, enabling marketers and SEO professionals to enhance their online visibility and marketing strategies.
+logo: https://example.com/path/to/raven_seo_tools/logo.png # Replace with actual logo URL
+categories: [SEO, marketing-analytics, digital-marketing]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.raventools.com/v1"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "API key used for authenticating requests to the Raven SEO Tools API."
+        type: string
+        required: true
