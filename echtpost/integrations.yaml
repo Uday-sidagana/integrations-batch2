@@ -1,0 +1,18 @@
+name: EchtPost
+unique_key: echtpost
+
+description: EchtPost offers secure and encrypted digital communication solutions, ensuring privacy and safety for personal and business correspondence.
+logo: https://example.com/path/to/echtpost/logo.png # Replace with actual logo URL
+categories: [digital-communication, encryption, privacy]
+
+auth_schemes:
+  - scheme_name: BEARER_TOKEN
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.echtpost.com/v1"
+    fields:
+      - name: Authorization
+        displayName: Authorization Token
+        description: "Bearer token used for authenticating requests to the EchtPost API."
+        type: string
+        required: true
