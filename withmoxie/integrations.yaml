@@ -2,7 +2,7 @@ name: WithMoxie
 unique_key: withmoxie
 
 description: WithMoxie delivers innovative customer engagement solutions to enhance customer experience through smarter communication and interactions.
-logo: https://example.com/path/to/withmoxie/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/f9cd07aa67d34fa6d8453f4321c86433e8786836/withmoxie.svg
 categories: [customer-engagement, customer-support, communication]
 
 auth_schemes:
