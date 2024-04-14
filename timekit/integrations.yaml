@@ -2,7 +2,7 @@ name: TimeKit
 unique_key: timekit
 
 description: TimeKit is a flexible booking and calendar management API that allows developers to integrate scheduling and time management capabilities into their applications.
-logo: https://example.com/path/to/timekit/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/6b2e91c9bf0e3db5efbc9fcbb707290619b94a71/timekit.svg
 categories: [scheduling, calendar-management, api]
 
 auth_schemes:
