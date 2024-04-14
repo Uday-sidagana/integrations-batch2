@@ -1,0 +1,18 @@
+name: BrowseAI
+unique_key: browseai
+
+description: BrowseAI offers advanced AI-driven web automation and data extraction tools, enabling developers to build powerful applications that can interact with and extract data from websites dynamically.
+logo: https://example.com/path/to/browseai/logo.png # Replace with actual logo URL
+categories: [web-automation, data-extraction, AI]
+
+auth_schemes:
+  - scheme_name: BEARER_TOKEN
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.browseai.com/v1"
+    fields:
+      - name: Authorization
+        displayName: Authorization Token
+        description: "Bearer token used for authenticating requests to the BrowseAI API."
+        type: string
+        required: true
