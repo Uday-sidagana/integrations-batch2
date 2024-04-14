@@ -2,7 +2,7 @@ name: AppDrag
 unique_key: appdrag
 
 description: AppDrag is a cloud development platform that offers tools for creating professional websites and managing cloud backend services with ease.
-logo: https://example.com/path/to/appdrag/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/32f7b7f5fd674522ccc808c449db6c89c4a07210/appdrag.svg
 categories: [web-development, cloud-services, api-management]
 
 auth_schemes:
