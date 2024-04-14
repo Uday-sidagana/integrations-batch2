@@ -2,7 +2,7 @@ name: BrowserHub
 unique_key: browserhub
 
 description: BrowserHub offers scalable browser automation and web testing solutions, enabling developers and QA engineers to automate tests and tasks across a variety of browser environments.
-logo: https://example.com/path/to/browserhub/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/d0bd9d71e12b6f0917db9cc6661918953b83716e/browserhub.svg
 categories: [web-testing, browser-automation, QA]
 
 auth_schemes:
