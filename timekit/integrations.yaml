@@ -1,0 +1,18 @@
+name: TimeKit
+unique_key: timekit
+
+description: TimeKit is a flexible booking and calendar management API that allows developers to integrate scheduling and time management capabilities into their applications.
+logo: https://example.com/path/to/timekit/logo.png # Replace with actual logo URL
+categories: [scheduling, calendar-management, api]
+
+auth_schemes:
+  - scheme_name: BEARER_TOKEN
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.timekit.io/"
+    fields:
+      - name: Authorization
+        displayName: Authorization Token
+        description: "Bearer token used for authenticating requests to the TimeKit API."
+        type: string
+        required: true
