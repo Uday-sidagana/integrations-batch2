@@ -2,7 +2,7 @@ name: MaintainX
 unique_key: maintainx
 
 description: MaintainX provides a comprehensive suite of tools for maintenance and operations management, enabling businesses to streamline workflows, enhance communication, and improve operational efficiency.
-logo: https://example.com/path/to/maintainx/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/d451c8c38dddf39e757cc4c7bb2aff4ae403956a/maintainx.svg
 categories:
   [maintenance-management, workflow-automation, operational-efficiency]
 
