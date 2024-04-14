@@ -1,0 +1,18 @@
+name: WithMoxie
+unique_key: withmoxie
+
+description: WithMoxie delivers innovative customer engagement solutions to enhance customer experience through smarter communication and interactions.
+logo: https://example.com/path/to/withmoxie/logo.png # Replace with actual logo URL
+categories: [customer-engagement, customer-support, communication]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://pod01.withmoxie.com/api/public"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "API key used for authenticating requests to the WithMoxie API."
+        type: string
+        required: true
