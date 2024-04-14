@@ -2,7 +2,7 @@ name: Amcards
 unique_key: amcards
 
 description: Amcards offers a variety of digital greeting card solutions, enabling users to create, personalize, and send digital cards for any occasion with ease.
-logo: https://example.com/path/to/amcards/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/5eb7502aa1e6ec19fcf64ad3bf4bd8d1a6dc9992/amcards.svg
 categories: [digital-greeting-cards, event-management, personalization]
 
 auth_schemes:
