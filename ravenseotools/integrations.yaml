@@ -2,7 +2,7 @@ name: Raven SEO Tools
 unique_key: ravenseotools
 
 description: Raven SEO Tools offers advanced SEO analysis, reporting, and data tracking services, enabling marketers and SEO professionals to enhance their online visibility and marketing strategies.
-logo: https://example.com/path/to/raven_seo_tools/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/3f3dd4eafeda1829b06093e1eb45d416c751b088/ravenseotools.svg
 categories: [SEO, marketing-analytics, digital-marketing]
 
 auth_schemes:
