@@ -2,7 +2,7 @@ name: CHMeetings
 unique_key: chmeetings
 
 description: CHMeetings is a comprehensive church management platform offering solutions for event planning, member engagement, and administrative efficiency.
-logo: https://example.com/path/to/chmeetings/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/23097413e36418d8988a386504bc82d021965b6d/chmeetings.svg
 categories: [church-management, event-planning, member-engagement]
 
 auth_schemes:
