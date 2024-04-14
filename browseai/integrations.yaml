@@ -2,7 +2,7 @@ name: BrowseAI
 unique_key: browseai
 
 description: BrowseAI offers advanced AI-driven web automation and data extraction tools, enabling developers to build powerful applications that can interact with and extract data from websites dynamically.
-logo: https://example.com/path/to/browseai/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/afe380d4e22aa4e6e6f9a19f4923b3f85b21ac66/browseai.svg
 categories: [web-automation, data-extraction, AI]
 
 auth_schemes:
