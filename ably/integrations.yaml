@@ -2,7 +2,7 @@ name: Ably
 unique_key: ably
 
 description: Ably provides robust and scalable real-time messaging and data streaming solutions, enabling developers to implement complex real-time infrastructure easily.
-logo: https://example.com/path/to/ably/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/a16a26b1150c10fc8dd94ffd25f3a68a76da0fb4/ably.svg
 categories: [real-time-messaging, data-streaming, API]
 
 auth_schemes:
