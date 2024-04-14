@@ -1,0 +1,18 @@
+name: AppDrag
+unique_key: appdrag
+
+description: AppDrag is a cloud development platform that offers tools for creating professional websites and managing cloud backend services with ease.
+logo: https://example.com/path/to/appdrag/logo.png # Replace with actual logo URL
+categories: [web-development, cloud-services, api-management]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.appdrag.com/api/v1"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "API key used for authenticating requests to the AppDrag API."
+        type: string
+        required: true
