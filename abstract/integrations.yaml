@@ -2,7 +2,7 @@ name: Abstract
 unique_key: abstract
 
 description: Abstract offers design version control, collaboration, and workflow integration solutions, enabling design teams to work more efficiently and cohesively.
-logo: https://example.com/path/to/abstract/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/6ada5610e4049d5472b05ae739963a13ac74bfb9/abstract.svg
 categories: [design, version-control, collaboration]
 
 auth_schemes:
