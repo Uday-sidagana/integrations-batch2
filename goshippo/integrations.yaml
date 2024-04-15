@@ -1,0 +1,18 @@
+name: GoShippo
+unique_key: goshippo
+
+description: GoShippo offers a comprehensive set of shipping, tracking, and logistics tools, enabling businesses to streamline their shipping processes and enhance customer satisfaction.
+logo: https://example.com/path/to/goshippo/logo.png # Replace with actual logo URL
+categories: [shipping, logistics, e-commerce]
+
+auth_schemes:
+  - scheme_name: BEARER_TOKEN
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.goshippo.com"
+    fields:
+      - name: Authorization
+        displayName: Bearer Token
+        description: "Bearer token used for authenticating requests to the GoShippo API. The token should be included in the HTTP headers as 'Bearer {token}'."
+        type: string
+        required: true
