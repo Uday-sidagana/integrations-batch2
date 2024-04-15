@@ -2,7 +2,7 @@ name: Omnisend
 unique_key: omnisend
 
 description: Omnisend provides powerful email marketing and automation tools designed for e-commerce businesses, enabling personalized customer experiences and streamlined marketing workflows.
-logo: https://example.com/path/to/omnisend/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/81a3101169cfb37ad6a295aa29c161b8bbe1789c/omnisend.svg
 categories: [email-marketing, automation, e-commerce]
 
 auth_schemes:
