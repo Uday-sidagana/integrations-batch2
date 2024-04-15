@@ -2,7 +2,7 @@ name: Postmark
 unique_key: postmark
 
 description: Postmark specializes in delivering transactional emails for businesses, ensuring high deliverability and rapid delivery times, with robust analytics to track email performance.
-logo: https://example.com/path/to/postmark/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/1e3c3b1b9aa6100d98fd6befdd1d472a63503d34/postmark.svg
 categories: [email-delivery, transactional-email, analytics]
 
 auth_schemes:
