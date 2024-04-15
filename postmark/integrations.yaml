@@ -1,0 +1,18 @@
+name: Postmark
+unique_key: postmark
+
+description: Postmark specializes in delivering transactional emails for businesses, ensuring high deliverability and rapid delivery times, with robust analytics to track email performance.
+logo: https://example.com/path/to/postmark/logo.png # Replace with actual logo URL
+categories: [email-delivery, transactional-email, analytics]
+
+auth_schemes:
+  - scheme_name: SERVER_TOKEN
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://api.postmarkapp.com"
+    fields:
+      - name: X-Postmark-Server-Token
+        displayName: Server Token
+        description: "Server token used for authenticating requests to the Postmark API."
+        type: string
+        required: true
