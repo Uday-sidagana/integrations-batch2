@@ -2,7 +2,7 @@ name: BugBug
 unique_key: bugbug
 
 description: BugBug provides a robust automated web testing solution, enabling developers to efficiently run tests across various browsers and platforms to ensure optimal web application performance.
-logo: https://example.com/path/to/bugbug/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/f4f1b72e25cfdb74f69a6605dc51f55710d60a67/bugbug.svg
 categories: [web-testing, automation, quality-assurance]
 
 auth_schemes:
