@@ -2,7 +2,7 @@ name: GoShippo
 unique_key: goshippo
 
 description: GoShippo offers a comprehensive set of shipping, tracking, and logistics tools, enabling businesses to streamline their shipping processes and enhance customer satisfaction.
-logo: https://example.com/path/to/goshippo/logo.png # Replace with actual logo URL
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/117828b0824e514a99256d6d7024660b463c4a3f/goshippo.svg
 categories: [shipping, logistics, e-commerce]
 
 auth_schemes:
