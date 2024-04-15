@@ -6,13 +6,13 @@ logo: https://raw.githubusercontent.com/SamparkAI/open-logos/1e3c3b1b9aa6100d98f
 categories: [email-delivery, transactional-email, analytics]
 
 auth_schemes:
-  - scheme_name: SERVER_TOKEN
+  - scheme_name: ACCOUNT_API_TOKEN
     auth_mode: HEADER
     proxy:
       base_url: "https://api.postmarkapp.com"
     fields:
-      - name: X-Postmark-Server-Token
-        displayName: Server Token
-        description: "Server token used for authenticating requests to the Postmark API."
+      - name: X-Postmark-Account-Token
+        displayName: Account API Token
+        description: "Account API Token used for authenticating requests to the Postmark API. This token provides access at the account level, allowing management of servers and other resources."
         type: string
         required: true
