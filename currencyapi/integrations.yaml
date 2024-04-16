@@ -1,0 +1,18 @@
+name: CurrencyApi
+unique_key: currencyapi
+
+description: CurrencyApi provides real-time exchange rate data and currency conversion services, enabling businesses and developers to integrate up-to-date global currency information into their applications.
+logo: https://app.currencyapi.com/assets/images/logo.png # Assuming logo URL; replace if different
+categories: [finance, currency-exchange, API]
+
+auth_schemes:
+  - scheme_name: API_KEY
+    auth_mode: HEADER
+    proxy:
+      base_url: "https://app.currencyapi.com/api/v1"
+    fields:
+      - name: api_key
+        displayName: API Key
+        description: "API key used for authenticating requests to the CurrencyApi services. Include this key in the request header as 'Authorization: Apikey {your_api_key}'."
+        type: string
+        required: true
