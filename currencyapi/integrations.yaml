@@ -2,7 +2,7 @@ name: CurrencyApi
 unique_key: currencyapi
 
 description: CurrencyApi provides real-time exchange rate data and currency conversion services, enabling businesses and developers to integrate up-to-date global currency information into their applications.
-logo: https://app.currencyapi.com/assets/images/logo.png # Assuming logo URL; replace if different
+logo: https://raw.githubusercontent.com/SamparkAI/open-logos/74e134efb17251ed9bc728576e9d4f83fd042c0b/currencyapi.svg
 categories: [finance, currency-exchange, API]
 
 auth_schemes:
