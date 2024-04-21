@@ -15,13 +15,13 @@ categories: [Marketing, Automation]
       - name: api_key
         expected_from_customer: true 
         displayName: API Key
-        description: "Add description here"
+        description: "API KEY"
         type: string
         required: true
       - name: base_url
         expected_from_customer: true 
         displayName: Base URL
-        description: "Add description here"
+        description: "Base URL"
         type: string
         required: false
         default: {{api endpoint URL of the app}}
