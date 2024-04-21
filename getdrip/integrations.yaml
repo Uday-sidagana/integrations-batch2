@@ -1,0 +1,27 @@
+name: GetDrip API
+unique_key: getdrip_api
+docs: https://developer.drip.com/#authentication
+description: API for integrating with Drip marketing automation platform.
+logo: [insert logo URL here]
+categories: [Marketing, Automation]
+
+- scheme_name: getdrip_api_key
+    auth_mode: API-KEY
+    proxy:
+      base_url: "{{base_url}}"
+      headers:
+        Authorization: "{{api_key}}"
+    fields:
+      - name: api_key
+        expected_from_customer: true 
+        displayName: API Key
+        description: "Add description here"
+        type: string
+        required: true
+      - name: base_url
+        expected_from_customer: true 
+        displayName: Base URL
+        description: "Add description here"
+        type: string
+        required: false
+        default: {{api endpoint URL of the app}}
