@@ -1,5 +1,5 @@
 name: GetDrip API
-unique_key: getdrip_api
+unique_key: getdrip
 docs: https://developer.drip.com/#authentication
 description: API for integrating with Drip marketing automation platform.
 logo: https://raw.githubusercontent.com/SamparkAI/open-logos/033bc711bba18ad45e400d1e1d0086ad285b88dd/getdrip.svg
