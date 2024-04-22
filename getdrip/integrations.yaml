@@ -19,9 +19,7 @@ categories: [Marketing, Automation]
         type: string
         required: true
       - name: base_url
-        expected_from_customer: true 
         displayName: Base URL
         description: "Base URL"
         type: string
-        required: false
         default: "https://api.getdrip.com/"
