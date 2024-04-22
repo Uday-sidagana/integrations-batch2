@@ -4,7 +4,7 @@ docs: https://developer.drip.com/#authentication
 description: API for integrating with Drip marketing automation platform.
 logo: https://raw.githubusercontent.com/SamparkAI/open-logos/033bc711bba18ad45e400d1e1d0086ad285b88dd/getdrip.svg
 categories: [Marketing, Automation]
-# Indent the list item and its content
+
 - scheme_name: getdrip_api_key
   auth_mode: API-KEY
   proxy:
