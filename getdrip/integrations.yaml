@@ -24,4 +24,4 @@ categories: [Marketing, Automation]
         description: "Base URL"
         type: string
         required: false
-        default: {{api endpoint URL of the app}}
+        default: "https://api.getdrip.com/"
